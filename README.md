@@ -36,7 +36,10 @@ Java Based Information Management System
 
 ## About The Project
 
-<div style="border-top-left-radius: 15px; border-bottom-right-radius: 15px;">![Screenshot](https://github.com/ShaanCoding/makeread.me/blob/main/images/demo.gif)</div>
+<div>
+  <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
+  <img src="https://github.com/ShaanCoding/makeread.me/blob/main/images/demo.gif" alt="Star Badge" style="border-top-left-radius: 15px; border-bottom-right-radius: 15px;"/>
+</div>
 
 One of the challenges with building and contributing to open source software is that while many projects have amazing functionalities, they often miss out on reaching a wider audience due to lack of clear and user-friendly installation instructions. In addition, lack of efficient showcase of their use cases also contribute to the lower reach of these projects.
 
