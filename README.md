@@ -38,7 +38,7 @@ Java Based Information Management System
 The Ravana Adventure Park Management System is a standalone application aimed at optimizing the operations of our adventure park. The software supports various user roles, each with specific responsibilities to ensure smooth and efficient park management.
 
 <div>
-  <img src="https://github.com/RAVANA-Final-Project/RavanaAPMS/assets/Ravana-Intro.gif" alt="Example GIF" style="border-radius: 10px; margin: 10px;">
+  <img src="https://github.com/RAVANA-Final-Project/RavanaAPMS/blob/main/assets/Ravana-Intro.gif" alt="Example GIF" style="border-radius: 10px; margin: 10px;">
 </div>
 
 ## Features
