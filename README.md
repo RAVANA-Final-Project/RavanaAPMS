@@ -17,7 +17,7 @@ Java Based Information Management System
 </p>
 </div>
 
-![Contributors](https://img.shields.io/github/contributors/abhisheknaiidu/awesome-github-profile-readme?color=dark-green) ![Issues](https://img.shields.io/github/issues/ShaanCoding/makeread.me) ![License](https://img.shields.io/github/license/ShaanCoding/makeread.me)
+![Contributors](https://img.shields.io/github/contributors/RAVANA-Final-Project/RavanaAPMS?color=dark-green) ![Issues](https://img.shields.io/github/issues/ShaanCoding/makeread.me) ![License](https://img.shields.io/github/license/ShaanCoding/makeread.me)
 
 ## Table of Contents
 
