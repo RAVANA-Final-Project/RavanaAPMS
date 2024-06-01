@@ -58,39 +58,16 @@ We&#39;ve made it easy for you to contribute to the project by using Nunjucks an
 
 This project was built with the following technologies:
 
-- [Next.js](https://nextjs.org/)
-- [React](https://react.dev/)
-- [Shadcn/ui](https://ui.shadcn.com/)
-- [React Hook Form](https://react-hook-form.com/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Express](https://expressjs.com/)
+- [Java](https://nextjs.org/)
+- [MySQL](https://react.dev/)
+- [JFreeChart](https://www.jfree.org/jfreechart/)
+- [FlatLaf](https://www.formdev.com/flatlaf/)
+- [Jaspersoft](https://www.jaspersoft.com/)
 
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This project requires Yarn to be installed in your system. If you don&#39;t have it installed, you can follow these steps:
-
-- Install Yarn globally using npm (Node Package Manager). Open your terminal and run:
-
-  ```sh
-  npm install -g yarn
-  ```
-
-  Please ensure that you have Node.js and npm installed before running Yarn.
-
-- Verify that Yarn has been installed on your machine by running the following command in your terminal:
-
-  ```sh
-  yarn --version
-  ```
-
-  If Yarn has been installed correctly, your terminal should display the version of Yarn installed on your machine.
-
-Now you are ready to use Yarn for managing and versioning your project dependencies!
 
 ### Installation
 
@@ -163,7 +140,7 @@ The roadmap includes both completed and future goals. Here&#39;s what we have ac
 
 We continue our commitment to improving and expanding the capabilities of makeread.me to provide an efficient and seamless readme generation experience to our users.
 
-See the [open issues](https://github.com/ShaanCoding/makeread.me/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/RAVANA-Final-Project/RavanaAPMS/issues) for a full list of proposed features (and known issues).
 
 ## Contributing
 
@@ -180,11 +157,11 @@ Don&#39;t forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the Mozilla Public License 2.0 License. See [Mozilla Public License 2.0 License](https://github.com/ShaanCoding/makeread.me/blob/main/LICENSE.md) for more information.
+Distributed under the Mozilla Public License 2.0 License. See [Mozilla Public License 2.0 License](https://github.com/RAVANA-Final-Project/RavanaAPMS) for more information.
 
 ## Contact
 
 If you have any questions or suggestions, feel free to reach out to us:
 
-- Raise an issue on the repository: [GitHub Repository](https://github.com/ShaanCoding/makeread.me)
+- Raise an issue on the repository: [GitHub Repository](https://github.com/RAVANA-Final-Project/RavanaAPMS)
 - Connect with us on Twitter: [@ShaanCoding](https://twitter.com/ShaanCoding)
