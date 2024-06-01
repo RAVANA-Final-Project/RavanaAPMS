@@ -77,7 +77,7 @@ The Super Admin role includes:
 - **👨‍💼 Manage Admins**: Oversee admin accounts.
 - **🔧 Manage Equipment Managers**: Oversee equipment manager accounts.
 - **📊 View Reports**: Access various reports.
-- **📈 Generate Employee Attendance Reports**:
+- **📈 Generate Reports**:
   - Invoices
   - Orders
   - Income
