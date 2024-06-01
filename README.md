@@ -1,5 +1,5 @@
 <div class="collage">
-        <img src="path/to/image1.jpg" alt="Image 1" class="large">
+        <img src="src/resource/splash_screen.png" alt="Image 1" class="large">
         <img src="path/to/image2.jpg" alt="Image 2">
         <img src="path/to/image3.jpg" alt="Image 3" class="tall">
         <img src="path/to/image4.jpg" alt="Image 4">
