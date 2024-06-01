@@ -622,7 +622,7 @@ public class ManageEmployeeAttendance extends javax.swing.JPanel {
                         ResultSet searchEmployeeResultSet = MySQL.execute("SELECT `employee_employee_nic` FROM `employee_attendance` WHERE `employee_employee_nic`='" + jTextField2.getText() + "' AND `attendance_date_attendance_date_id`='" + searchAttendanceDateResultset.getString("attendance_date_id") + "' AND `employee_attendance_status_employee_attendance_status_id`='3'");
 
                         if (searchEmployeeResultSet.next()) {
-                            System.out.println("report arranged");
+                            
                             MySQL.execute("UPDATE `employee_attendance` "
                                     + "SET `in_time` = '" + new SimpleDateFormat("hh:MM:ss").format(new Date()) + "',"
                                     + "`employee_attendance_status_employee_attendance_status_id`='1' "
