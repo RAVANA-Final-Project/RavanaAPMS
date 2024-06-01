@@ -21,38 +21,81 @@ Java Based Information Management System
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
-- [About The Project](#about-the-project)
-  - [Built With](#built-with)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgments](#acknowledgments)
-- [Notice](#notice)
+- [📖 Introduction](#introduction)
+- [✨ Features](#features)
+- [👥 Roles and Responsibilities](#roles-and-responsibilities)
+  - [👨‍💼 Admin](#admin)
+  - [👑 Super Admin](#super-admin)
+  - [🔧 Equipment Manager](#equipment-manager)
+- [⚙️ Installation](#installation)
+- [🚀 Usage](#usage)
+- [🤝 Contributing](#contributing)
+- [📜 License](#license)
+- [📞 Contact](#contact)
 
-## About The Project
+## Introduction
+
+The Ravana Adventure Park Management System is a standalone application aimed at optimizing the operations of our adventure park. The software supports various user roles, each with specific responsibilities to ensure smooth and efficient park management.
 
 <div>
   <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="Example GIF" style="border-radius: 10px; margin: 10px;">
 </div>
 
-One of the challenges with building and contributing to open source software is that while many projects have amazing functionalities, they often miss out on reaching a wider audience due to lack of clear and user-friendly installation instructions. In addition, lack of efficient showcase of their use cases also contribute to the lower reach of these projects.
+## Features
 
-While there are ReadME templates that can help address this, the process of manually filling out these templates can be time-consuming and tedious. That&#39;s where our project makeread.me comes in.
+- **👤 User Management**: Efficient management of users, roles, and permissions.
+- **📅 Activity Management**: Comprehensive scheduling and management of adventure activities and leadership programs.
+- **🛠️ Equipment Management**: Detailed tracking of equipment inventory, maintenance, and usage.
+- **🛍️ Order and Payment Management**: Handling of orders, offers, and payments with invoice generation.
+- **👔 Employee Management**: Management of employee details, job roles, and attendance.
+- **📊 Report Generation**: Extensive reporting capabilities to analyze different aspects of park operations.
+- **🔒 Secure Access**: Role-based access control for data security and integrity.
 
-Introducing makeread.me, an automated ReadMe Generator that can revolutionize how you create your project documentation. It is designed to:
+## Roles and Responsibilities
 
-- Save your valuable time enhancing your focus on development,
-- Automate redundant tasks, and,
-- Implement DRY (Don&#39;t Repeat Yourself) principles to your documentation.
+### Admin 👨‍💼
 
-It&#39;s free, open-source, and highly customizable. Feel free to modify our templates to fit your needs. If you find that a particular component is missing, you are more than welcome to contribute and expand the project.
+The Admin role includes:
 
-We&#39;ve made it easy for you to contribute to the project by using Nunjucks and JSON templates for programmatic mapping. Enjoy the benefits of clear and concise project documentation with makeread.me!
+- **🔐 Login/Logout**: Secure authentication.
+- **👥 Manage Users**: Register and update user information.
+- **📦 Manage Order**: Add, update, delete orders, and manage offers.
+- **🏃 Manage Activity**: Add new activities, update existing ones, and set activities as inactive.
+- **💳 Manage Payments**: Generate and handle invoices.
+- **👔 Manage Employees**: Add, update, and set employees as inactive.
+- **📋 Manage Employee Positions**: Add job roles and manage vacancies.
+- **📈 Generate Reports**:
+  - Income Reports (Daily, Monthly, Yearly)
+  - Employee Reports
+  - User/Customer Reports
+
+### Super Admin 👑
+
+The Super Admin role includes:
+
+- **🔐 All Admin Privileges** (excluding managing users, activities, and employees)
+- **👨‍💼 Manage Admins**: Oversee admin accounts.
+- **🔧 Manage Equipment Managers**: Oversee equipment manager accounts.
+- **📊 View Reports**: Access various reports.
+- **📈 Generate Employee Attendance Reports**:
+  - Invoices
+  - Orders
+  - Income
+  - Attendance
+  - Employee
+  - Customer
+  - Equipment
+  - Outdated Equipment and Tools
+
+### Equipment Manager 🔧
+
+The Equipment Manager role includes:
+
+- **🔧 Register Equipment**: Add, update, and manage equipment details.
+- **🏷️ Manage Brand**: Add, update, and manage brand information.
+- **📦 Manage Stock**: Add new stock, manage existing stock, and remove stock.
+- **📈 Generate Reports**:
+  - Outdated Equipment Report (Monthly)
 
 ### Built With
 
@@ -64,104 +107,94 @@ This project was built with the following technologies:
 - [FlatLaf](https://www.formdev.com/flatlaf/)
 - [Jaspersoft](https://www.jaspersoft.com/)
 
-## Getting Started
+## Installation ⚙️
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To set up the Ravana Adventure Park Management System locally, follow these steps:
 
-### Installation
+1. **📥 Download the setup file from the repository's releases page:**
 
-Please follow the following steps for successful installation:
+    [Download Setup File](https://github.com/yourusername/ravana-adventure-park/releases)
 
-1. **Clone the Repository:** Get started by cloning the repository to your local machine.
+2. **🛠️ Run the setup file to install the application directly.**
 
-   ```
-   https://github.com/ShaanCoding/makeread.me
-   ```
+Alternatively, you can set up the application manually:
 
-2. **Install Frontend Packages:** Navigate to the &quot;/frontend&quot; directory and install the required yarn packages by executing the following command in your terminal:
+1. **📥 Clone the repository:**
 
-   ```sh
-   yarn install
-   ```
+    ```bash
+    git clone https://github.com/yourusername/ravana-adventure-park.git
+    ```
 
-3. **Install Backend Packages:** Similarly, navigate to the &quot;/backend&quot; directory and install the required yarn packages by executing the following command in your terminal:
+2. **📂 Navigate to the project directory:**
 
-   ```sh
-   yarn install
-   ```
+    ```bash
+    cd ravana-adventure-park
+    ```
 
-4. **Set Up Environment:**
+3. **📦 Install the required dependencies:**
 
-   - In the &quot;/backend&quot; directory, copy the content of &quot;.env.example&quot; file and create a new file named &quot;.env&quot;. Adjust the environment variables according to your requirements or you can leave them as it is.
+    ```bash
+    npm install
+    ```
 
-   - Navigate to &quot;frontend/api/generated/readMeGenerator.ts&quot; and set the BASE parameter to your backend API route. For instance, if you are running backend on your local server at port 8080, you should set:
+4. **🚀 Run the application:**
 
-     ```javascript
-     BASE: "http://localhost:8080/api";
-     ```
+    ```bash
+    npm start
+    ```
 
-5. **Run the Backend:** Navigate to &quot;/backend&quot; directory and type the following command in your terminal to run your backend server:
+5. **🌐 Open your browser and visit:**
 
-   ```sh
-   yarn dev
-   ```
+    ```text
+    http://localhost:3000
+    ```
 
-6. **Run the Frontend:** Finally, navigate to &quot;/frontend&quot; directory and type the following command in your terminal to run your frontend server:
+## Usage 🚀
 
-   ```sh
-   yarn dev
-   ```
+After setting up the application, log in with the appropriate credentials based on your role (Admin, Super Admin, or Equipment Manager). Navigate through the dashboard to access the various functionalities provided for your role.
 
-   Now, your application should be successfully up and running!
+### Admin Guide 👨‍💼
 
-## Roadmap
+- **👥 User Management**: Add, edit, or remove users.
+- **📦 Order Management**: Manage orders and offers.
+- **🏃 Activity Management**: Schedule new activities and view upcoming events.
+- **💳 Payment Handling**: Generate and manage invoices.
+- **👔 Employee Management**: Add and manage employee details and job roles.
+- **📈 Report Generation**: Generate income, employee, and customer reports.
 
-The roadmap includes both completed and future goals. Here&#39;s what we have accomplished and looking forward to:
+### Super Admin Guide 👑
 
-- [x] Add backend swagger generation
-- [x] Add backend
-- [x] Set up CI/CD on railway
-- [x] Allow dynamic input field generation based off a JSON file
-  - [x] Textarea
-  - [x] Input
-  - [x] Objects
-  - [x] Array
-- [x] Allow users to set the order of components or delete them
-- [x] Allow templating via Nunjucks
-- [x] Add Plausible Analytics
-- [x] Add old readme generator template
-- [ ] Add more templates
-- [ ] Move rendering logic to the backend with debounce
-- [x] Replace useEffect with react query
-- [ ] Add caching
-- [ ] Write up README best practice articles
-- [ ] Avoid key collisions when using non-unique-names as Ids in templates
+- **🔧 System Oversight**: Manage admins and equipment managers.
+- **📊 Report Access**: View and generate detailed reports.
+- **📅 Attendance Tracking**: Generate employee attendance reports.
 
-We continue our commitment to improving and expanding the capabilities of makeread.me to provide an efficient and seamless readme generation experience to our users.
+### Equipment Manager Guide 🔧
 
-See the [open issues](https://github.com/RAVANA-Final-Project/RavanaAPMS/issues) for a full list of proposed features (and known issues).
+- **🔧 Equipment Registration**: Add, update, or remove equipment.
+- **🏷️ Brand Management**: Manage equipment brands.
+- **📦 Stock Management**: Handle stock details and inventory.
+- **📈 Report Generation**: Generate monthly outdated equipment reports.
 
-## Contributing
+## Contributing 🤝
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+We welcome contributions from the community! If you would like to contribute to this project, please follow these steps:
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag &quot;enhancement&quot;.
-Don&#39;t forget to give the project a star! Thanks again!
+1. **🍴 Fork the repository.**
+2. **🔀 Create a new branch.**
+3. **🛠️ Make your changes.**
+4. **📥 Submit a pull request.**
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m &#39;Add some AmazingFeature&#39;`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Please ensure that your contributions align with the project's coding standards and guidelines.
 
-## License
+## License 📜
 
-Distributed under the Mozilla Public License 2.0 License. See [Mozilla Public License 2.0 License](https://github.com/RAVANA-Final-Project/RavanaAPMS) for more information.
+This project is licensed under the [MIT License](LICENSE).
 
-## Contact
+## Contact 📞
 
-If you have any questions or suggestions, feel free to reach out to us:
+For any questions or further information, please contact us at:
 
-- Raise an issue on the repository: [GitHub Repository](https://github.com/RAVANA-Final-Project/RavanaAPMS)
-- Connect with us on Twitter: [@ShaanCoding](https://twitter.com/ShaanCoding)
+- **✉️ Email**: support@ravanaadventurepark.com
+- **🌐 Website**: [Ravana Adventure Park](https://ravanaadventurepark.com)
+
+Thank you for using the Ravana Adventure Park Management System! 🌟
