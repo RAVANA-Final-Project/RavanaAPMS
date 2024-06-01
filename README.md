@@ -1,5 +1,5 @@
-<div class="collage">
-        <img src="src/resource/splash_screen.png" alt="Image 1" class="large">
+<div >
+        <img src="src/resource/splash_screen.png" alt="Image 1" style="border-top-left-radius: 15px; border-bottom-right-radius: 15px;">
         <img src="path/to/image2.jpg" alt="Image 2">
         <img src="path/to/image3.jpg" alt="Image 3" class="tall">
         <img src="path/to/image4.jpg" alt="Image 4">
