@@ -1,7 +1,7 @@
 <br/>
 <div align="center">
 <a href="https://github.com/ShaanCoding/makeread.me">
-<img src="src/resource/Ravana.png" alt="Logo" width="80" height="80">
+<img src="src/resource/ravana_logo2.png" alt="Logo" width="229" height="199">
 </a>
 <h3 align="center">RAVANA ADVENCTURE PARK MANAGEMENT SYSTEM</h3>
 <p align="center">
