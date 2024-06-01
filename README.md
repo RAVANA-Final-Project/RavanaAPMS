@@ -119,6 +119,18 @@ To set up the Ravana Adventure Park Management System locally, follow these step
 
 Alternatively, you can set up the application manually:
 
+3. **📥 Download the SQL backup file from the repository:**
+
+    [Download SQL Backup File](https://github.com/yourusername/ravana-adventure-park/releases)
+
+4. **🔄 Restore the SQL backup file:**
+
+    Open your MySQL client and run the following command to restore the database:
+
+    ```sql
+    mysql -u yourusername -p yourdatabase < path/to/your/sqlbackupfile.sql
+    ```
+
 1. **📥 Clone the repository:**
 
     ```bash
@@ -194,7 +206,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 For any questions or further information, please contact us at:
 
-- **✉️ Email**: support@ravanaadventurepark.com
-- **🌐 Website**: [Ravana Adventure Park](https://ravanaadventurepark.com)
+- **✉️ Email**: dulanjayawebs@gmail.com
+- **💬 Project Discussion**: [Talk](https://github.com/RAVANA-Final-Project/RavanaAPMS/discussions)
 
 Thank you for using the Ravana Adventure Park Management System! 🌟
