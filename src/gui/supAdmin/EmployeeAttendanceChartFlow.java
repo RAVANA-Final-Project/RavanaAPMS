@@ -88,7 +88,7 @@ public class EmployeeAttendanceChartFlow extends javax.swing.JPanel {
         TextTitle source = new TextTitle();
         source.setFont(new Font("Segoe ui", Font.PLAIN, 9));
         source.setBackgroundPaint(Color.BLACK);
-        source.setPaint(Color.RED);
+        source.setPaint(Color.BLACK);
         source.setPosition(RectangleEdge.BOTTOM);
         source.setHorizontalAlignment(HorizontalAlignment.CENTER.RIGHT);
         chart.addSubtitle(source);
