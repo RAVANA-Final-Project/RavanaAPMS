@@ -36,7 +36,7 @@ Java Based Information Management System
 
 ## About The Project
 
-![Screenshot](https://github.com/ShaanCoding/makeread.me/blob/main/images/demo.gif)
+<div style="border-top-left-radius: 15px; border-bottom-right-radius: 15px;">![Screenshot](https://github.com/ShaanCoding/makeread.me/blob/main/images/demo.gif)</div>
 
 One of the challenges with building and contributing to open source software is that while many projects have amazing functionalities, they often miss out on reaching a wider audience due to lack of clear and user-friendly installation instructions. In addition, lack of efficient showcase of their use cases also contribute to the lower reach of these projects.
 
