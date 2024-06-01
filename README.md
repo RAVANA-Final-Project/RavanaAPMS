@@ -8,12 +8,12 @@
 Java Based Information Management System
 <br/>
 <br/>
-<a href="https://github.com/ShaanCoding/makeread.me/wiki"><strong>Explore the docs »</strong></a>
+<a href="https://github.com/RAVANA-Final-Project/RavanaAPMS"><strong>Explore the docs »</strong></a>
 <br/>
 <br/>
 <a href="https://www.makeread.me/">View Demo .</a>  
-<a href="https://github.com/ShaanCoding/makeread.me/issues/new?labels=bug&amp;template=bug_report.md">Report Bug .</a>
-<a href="https://github.com/ShaanCoding/makeread.me/issues/new?labels=enhancement&amp;&template=feature_request.md">Request Feature</a>
+<a href="https://github.com/RAVANA-Final-Project/RavanaAPMS/issues/new?labels=bug&amp;template=bug_report.md">Report Bug .</a>
+<a href="https://github.com/RAVANA-Final-Project/RavanaAPMS/issues/new?labels=enhancement&amp;&template=feature_request.md">Request Feature</a>
 </p>
 </div>
 
