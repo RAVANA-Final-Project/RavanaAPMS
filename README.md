@@ -11,7 +11,7 @@ Java Based Information Management System
 <a href="https://github.com/RAVANA-Final-Project/RavanaAPMS"><strong>Explore the docs »</strong></a>
 <br/>
 <br/>
-<a href="https://www.makeread.me/">View Demo .</a>  
+<a href="https://github.com/RAVANA-Final-Project/RavanaAPMS/">View Repo .</a>  
 <a href="https://github.com/RAVANA-Final-Project/RavanaAPMS/issues/new?labels=bug&amp;template=bug_report.md">Report Bug .</a>
 <a href="https://github.com/RAVANA-Final-Project/RavanaAPMS/issues/new?labels=enhancement&amp;&template=feature_request.md">Request Feature</a>
 </p>
@@ -113,7 +113,7 @@ To set up the Ravana Adventure Park Management System locally, follow these step
 
 1. **📥 Download the setup file from the repository's releases page:**
 
-    [Download Setup File](https://github.com/yourusername/ravana-adventure-park/releases)
+    [Download Setup File](https://github.com/RAVANA-Final-Project/RavanaAPMS/releases/download/v1.0.0/Setup.exe)
 
 2. **🛠️ Run the setup file to install the application directly.**
 
@@ -121,7 +121,7 @@ Alternatively, you can set up the application manually:
 
 3. **📥 Download the SQL backup file from the repository:**
 
-    [Download SQL Backup File](https://github.com/yourusername/ravana-adventure-park/releases)
+    [Download SQL Backup File](https://github.com/RAVANA-Final-Project/RavanaAPMS/releases/download/v1.0.0/Database_backup.sql)
 
 4. **🔄 Restore the SQL backup file:**
 
