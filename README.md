@@ -17,7 +17,14 @@ Java Based Information Management System
 </p>
 </div>
 
-![Contributors](https://img.shields.io/github/contributors/RAVANA-Final-Project/RavanaAPMS?color=dark-green) ![Issues](https://img.shields.io/github/issues/RAVANA-Final-Project/RavanaAPMS) ![License](https://img.shields.io/github/license/RAVANA-Final-Project/RavanaAPMS)
+<div align="center">
+  <a href="https://github.com/RAVANA-Final-Project/RavanaAPMS/stargazers"><img src="https://img.shields.io/github/stars/RAVANA-Final-Project/RavanaAPMS" alt="Stars Badge"/></a>
+  <a href="https://github.com/RAVANA-Final-Project/RavanaAPMS/network/members"><img src="https://img.shields.io/github/forks/RAVANA-Final-Project/RavanaAPMS" alt="Forks Badge"/></a>
+  <a href="https://github.com/RAVANA-Final-Project/RavanaAPMS/pulls"><img src="https://img.shields.io/github/issues-pr/RAVANA-Final-Project/RavanaAPMS?color=2b9348" alt="Pull Requests Badge"/></a>
+  <a href="https://github.com/RAVANA-Final-Project/RavanaAPMS/issues"><img src="https://img.shields.io/github/issues/RAVANA-Final-Project/RavanaAPMS?color=2b9348" alt="Issues Badge"/></a>
+  <a href="https://github.com/RAVANA-Final-Project/RavanaAPMS/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/RAVANA-Final-Project/RavanaAPMS?color=2b9348"></a>
+  <a href="https://github.com/RAVANA-Final-Project/RavanaAPMS/blob/master/LICENSE"><img src="https://img.shields.io/github/license/RAVANA-Final-Project/RavanaAPMS?color=2b9348" alt="License Badge"/></a>
+</div>
 
 ## Table of Contents
 
