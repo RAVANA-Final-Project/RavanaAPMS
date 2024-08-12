@@ -124,8 +124,6 @@ To set up the Ravana Adventure Park Management System locally, follow these step
 
 2. **🛠️ Run the setup file to install the application directly.**
 
-Alternatively, you can set up the application manually:
-
 3. **📥 Download the SQL backup file from the repository:**
 
     [Download SQL Backup File](https://github.com/RAVANA-Final-Project/RavanaAPMS/releases/download/v1.0.0/Database_backup.sql)
@@ -137,36 +135,35 @@ Alternatively, you can set up the application manually:
     ```sql
     mysql -u yourusername -p yourdatabase < path/to/your/sqlbackupfile.sql
     ```
+## Project Setup ⚙️
+
+To set up the project locally using NetBeans or Eclipse, follow these steps:
 
 1. **📥 Clone the repository:**
 
-    ```bash
-    git clone https://github.com/yourusername/ravana-adventure-park.git
-    ```
+    - Open NetBeans or Eclipse.
+    - Navigate to `File` > `Import` > `Git` > `Projects` from Git (with Smart Import).
+    - Select `Clone URI`, and enter the repository URL: [Click here](https://github.com/RAVANA-Final-Project/RavanaAPMS.git).
+    - Choose a local directory where you want to clone the project and click `Next`.
+    - Select the desired branch (usually main or master) and click `Finish`.
 
-2. **📂 Navigate to the project directory:**
+2. **🛠️ Open the Project:**
 
-    ```bash
-    cd ravana-adventure-park
-    ```
+    - In NetBeans: Go to `File` > Open `Project` and navigate to the directory where you cloned the repository. Select the `project` and click `Open Project`.
+    - In Eclipse: The project should automatically appear in the Project Explorer after cloning. If not, go to `File` > `Open Projects` from File System, browse to the cloned directory, and click `Finish`.
 
-3. **📦 Install the required dependencies:**
+3. **▶️ Run the Project:**
 
-    ```bash
-    npm install
-    ```
+    - In NetBeans: `Right-click` on the `project` in the `Projects pane` and select `Run`.
+    - In Eclipse: `Right-click` on the `project` in the `roject Explorer` and select `Run As` > `Java Application`.
 
-4. **🚀 Run the application:**
+4. **✅ Verify Installation:**
 
-    ```bash
-    npm start
-    ```
+    - The application should launch, and you can start using the Ravana Adventure Park Management System.
 
-5. **🌐 Open your browser and visit:**
+5. **💻 Additional Setup (Optional):**
 
-    ```text
-    http://localhost:3000
-    ```
+    - If your project requires additional configurations (e.g., environment variables, additional libraries), make sure to set those up before running the project.
 
 ## Usage 🚀
 
