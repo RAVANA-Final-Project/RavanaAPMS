@@ -143,7 +143,7 @@ To set up the project locally using NetBeans or Eclipse, follow these steps:
 
     - Open NetBeans or Eclipse.
     - Navigate to `File` > `Import` > `Git` > `Projects` from Git (with Smart Import).
-    - Select `Clone URI`, and enter the repository URL: [Click here](https://github.com/RAVANA-Final-Project/RavanaAPMS.git).
+    - Select `Clone URI`, and enter the repository URL: https://github.com/RAVANA-Final-Project/RavanaAPMS.git
     - Choose a local directory where you want to clone the project and click `Next`.
     - Select the desired branch (usually main or master) and click `Finish`.
 
