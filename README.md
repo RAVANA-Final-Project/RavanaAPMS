@@ -149,7 +149,7 @@ To set up the project locally using NetBeans or Eclipse, follow these steps:
 
 2. **🛠️ Open the Project:**
 
-    - In NetBeans: Go to `File` > Open `Project` and navigate to the directory where you cloned the repository. Select the `project` and click `Open Project`.
+    - In NetBeans: Go to `File` > `Open Project` and navigate to the directory where you cloned the repository. Select the `project` and click `Open Project`.
     - In Eclipse: The project should automatically appear in the Project Explorer after cloning. If not, go to `File` > `Open Projects` from File System, browse to the cloned directory, and click `Finish`.
 
 3. **▶️ Run the Project:**
