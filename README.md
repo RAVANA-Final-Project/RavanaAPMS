@@ -116,7 +116,7 @@ This project was built with the following technologies:
 
 ## Installation ⚙️
 
-To set up the Ravana Adventure Park Management System locally, follow these steps:
+To install RAPMS, follow these steps:
 
 1. **📥 Download the setup file from the repository's releases page:**
 
